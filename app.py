@@ -205,7 +205,7 @@ all_dates = sorted(summary_df["ReportDate"].unique())
 title_col, date_col = st.columns([4, 1], gap="small")
 with title_col:
     st.markdown(
-        "<div style='font-size:20px; font-weight:600; padding-top:6px;'>"
+        "<div style='font-size:18px; font-weight:600; padding-top:10px;'>"
         "Plant Daily Operational Dashboard</div>",
         unsafe_allow_html=True,
     )
